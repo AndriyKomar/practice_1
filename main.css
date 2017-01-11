@@ -1,0 +1,199 @@
+body{
+background: #DCDCDC;
+}
+
+.container{
+overflow: hidden;
+margin-left: 150px;
+margin-right: 130px;
+margin-top: 150px;
+width: 750;
+height: 100%;
+}
+
+.right{
+background-color: white;
+width: 330px;
+float: right;
+overflow: hidden;
+margin-right: 40px;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+}
+
+.left{
+background-color: white;
+width: 730px;
+float: left;
+overflow: hidden;
+box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+border-radius: 4px;
+}
+
+.row{  
+height: 30px;
+padding: 4px;
+border: 1px solid #E8E8E8;
+border-radius: 1px;
+}
+
+.row_up_right{  
+height: 30px;
+padding: 4px;
+border: 1px solid #E8E8E8;
+border-radius: 4px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.row_up_left{  
+height: 45px;
+padding: 4px;
+border: 1px solid #E8E8E8;
+border-radius: 4px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+.row_down{  
+height: 30px;
+padding: 4px;
+border: 1px solid #E8E8E8;
+border-radius: 4px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+
+.big_text{
+margin: 5px;
+margin-top: 4px;
+font-size: 130%;  
+font-weight: bold;
+}
+
+.remained{
+display: inline-block;
+width: auto;
+margin-top: 4px;
+padding: 3px;
+padding-left:7px;
+border-radius: 3px;
+background-color: #E8E8E8;
+font-size: 75%;
+}
+
+.circular{
+background-color:#FFA500;
+display: inline-block;
+width: 15px;
+height: 15px;
+border: 0px;
+border-radius: 12px;
+color: white;
+}
+
+.search{
+width: 600px;
+height: 30px;
+margin-top:6px;
+margin-left:10px;
+padding-left:10px;
+border: 1px solid #DADADA;
+border-radius: 4px;
+border-top-right-radius: 0px;
+border-bottom-right-radius:0px; 
+}
+
+.add_button{
+width: 90px;
+height: 34px;
+border: 1px solid #2185D0;
+border-radius: 4px;
+border-top-left-radius: 0px;
+border-bottom-left-radius:0px;
+background: #2185D0;
+margin-left: -5px;
+margin-top: 6px;
+color:white;
+font-size: 85%;
+font-weight: bold;
+}
+
+.text{
+display: inline-block;
+margin: 0px;
+margin-left: -65px;
+margin-top: 6px;
+}
+
+.button_box{
+display: inline-block;
+float: left;
+position: relative;
+left: 40%;
+margin: 0px;
+margin-top: 5px;
+}
+
+.box{
+display: inline-block;
+float: right;
+margin: auto;
+margin: 5px;
+margin-top: 0px;
+}
+
+.minus_button{
+background-color:#FF0000;
+width: 22px;
+height: 22px;
+border: 0px;
+border-radius: 20px;
+color: white;
+font-weight: bold;
+}
+
+.plus_button{
+background-color:#008000;
+width: 22px;
+height: 22px;
+border: 0px;
+border-radius: 20px;
+color: white;
+font-weight: bold;
+}
+
+.number{
+margin-left: 3px;
+margin-right: 6px;
+padding: 4px;
+padding-left: 7px;
+border: 0px solid #E8E8E8;
+border-radius: 3px;
+background-color:#E8E8E8;
+width: 30px;
+height: 30px;
+}
+
+.buy{
+background-color: #F2F2F2;
+border: 1px solid #DADADA;
+border-radius: 4px;
+box-shadow: 0px 2px #DADADA;
+color:#626262;
+font-size: 75%;
+width: 100px;
+height: 30px;
+}
+
+.delete{
+width: 30px;
+height: 30px;
+background-color: #FF0000;
+border: 2px solid #FF0000;
+border-radius: 4px;
+box-shadow: 0px 2px #BF2728;
+color: white;
+font-size: 75%;
+font-weight: bold;
+}
